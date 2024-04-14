@@ -1,2 +1,0 @@
-# parampara_code
- 
