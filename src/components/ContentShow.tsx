@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import soyaChunk from "../assets/image.png";
+import soyaChunk from "../assets/orange.jpg";
 
 const Container = styled.div`
 	display: flex;

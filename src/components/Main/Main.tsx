@@ -14,7 +14,7 @@ const TextOverlay = styled.div`
 	position: absolute;
 	top: 50%; /* Position at the vertical center */
 	left: 50%; /* Position at the horizontal center */
-	transform: translate(-50%, -50%) rotate(-20deg); /* Center the text */
+	transform: translate(-50%, -50%) rotate(-5deg); /* Center the text */
 	text-align: center;
 	color: white;
 	transform-origin: center;
@@ -25,7 +25,7 @@ const Title = styled.h1`
 	-webkit-text-stroke: 5px white;
 	text-wrap: nowrap;
 	-webkit-text-fill-color: transparent;
-	font-size: 6rem; /* Increase font size */
+	font-size: 8rem; /* Increase font size */
 	margin-bottom: 0.5rem; /* Reduce margin bottom */
 	font-weight: bold; /* Make the text bold */
 	letter-spacing: 2px; /* Add letter spacing */

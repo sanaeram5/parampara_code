@@ -17,11 +17,12 @@ const AboutSection = styled.section`
 const Content = styled.div`
 	display: flex;
 	align-self: flex-end;
-	align-items: center;
+	align-items: space-around;
 	background-color: #ffa500;
-	justify-content: flex-end;
-	border-radius: 500px 20px 20px 500px;
-	margin-right: 0px;
+	justify-content: space-around;
+	border-radius: 475px 30px 30px 475px;
+	padding-right: 10%;
+	margin-right: -5%;
 	@media (max-width: 756px) {
 		flex-direction: column;
 		border-radius: 500px 500px 20px 20px;

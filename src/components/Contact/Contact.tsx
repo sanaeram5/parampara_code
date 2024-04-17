@@ -9,19 +9,18 @@ const SectionContainer = styled.section`
 `;
 
 const ContentWrapper = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 `;
 
 const Card = styled.div`
-  width: 250px;
+  width: 21.8%;
   text-align: center;
   margin-bottom: 30px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
   padding: 20px;
 `;
 

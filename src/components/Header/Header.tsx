@@ -11,7 +11,7 @@ const HeaderContainer = styled.header`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 20px;
+	padding: 10px 40px;
 	color: white;
 `;
 
@@ -22,7 +22,7 @@ const Logo = styled.img`
 const Nav = styled.nav`
 	background-color: #6ab547;
 	border-radius: 25px; // Creates the semi-circle effect on the edges
-	padding: 0 1rem; // Adds horizontal padding for spacing
+	padding: 0 4rem; // Adds horizontal padding for spacing
 `;
 
 const MobileNavIcon = styled.div`

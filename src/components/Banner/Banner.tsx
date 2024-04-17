@@ -10,19 +10,29 @@ const SectionContainer = styled.section`
 `;
 
 const TextContainer = styled.div`
-	max-width: 800px;
-	margin: 0 auto;
+	transform: rotate(-5deg); /* Center the text */
+	text-align: center;
+	color: white;
+	transform-origin: center;
 `;
 
 const Heading = styled.h2`
-	font-size: 2.5rem;
-	font-weight: bold;
-	margin-bottom: 20px;
+	-webkit-text-stroke: 5px white;
+	text-wrap: nowrap;
+	-webkit-text-fill-color: transparent;
+	font-size: 2.5rem; /* Increase font size */
+	font-weight: bold; /* Make the text bold */
+	letter-spacing: 2px; /* Add letter spacing */
+
+	@media (max-width: 756px) {
+		font-size: 1.5rem;
+		-webkit-text-stroke: 3px white;
+	}
+		margin-bottom: 20px;
 `;
 
 const Subheading = styled.p`
 	font-size: 1.5rem;
-	font-style: italic;
 `;
 
 interface BannerProps {
